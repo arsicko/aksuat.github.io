@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Регистрация на семинар</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+<h1>Регистрация участников</h1>
+
+<form id="registrationForm">
+<input type="text" name="name" placeholder="ФИО" required>
+<input type="text" name="subject" placeholder="Предмет" required>
+<input type="text" name="class" placeholder="Класс" required>
+<input type="email" name="email" placeholder="Email" required>
+<button type="submit" class="button">Отправить</button>
+</form>
+
+<p style="text-align:center; margin-top:20px;">
+Сканируйте QR-код для быстрого перехода на сайт:<br>
+<img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://ВАШ-ЛОГИН.github.io/seminar-site" alt="QR код">
+</p>
+
+</div>
+
+</body>
+</html>
