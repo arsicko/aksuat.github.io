@@ -8,7 +8,7 @@ form.addEventListener('submit', e => {
   const name = form.name.value;
   const position = form.position.value;
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbxxqNeBvSwFGRjnmvVnWc2TFUMS0uWLstvIWfMuI9nkqcENTZfb4-AB--ywlBVw5_FQ/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwRQVYJJx6aMcPKU423kYheZusSPqFRPWoP-I_8ttb8DHAjeJa-ORv8pVQeKY0iOg7S/exec';
 
   fetch(scriptURL, {
     method: 'POST',
@@ -23,4 +23,5 @@ form.addEventListener('submit', e => {
     alert('Ошибка отправки, попробуйте снова');
     console.error(error);
   });
+
 });
