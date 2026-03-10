@@ -81,7 +81,7 @@ input {
 }
 
 /* Адаптивность */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
     padding: 15px;
   }
@@ -89,7 +89,7 @@ input {
     font-size: 24px;
   }
   h2 {
-    font-size: 18px;
+    font-size: 30px;
   }
   table {
     font-size: 14px;
@@ -98,4 +98,5 @@ input {
     width: 100%;
     text-align: center;
   }
+
 }
