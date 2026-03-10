@@ -10,7 +10,7 @@ form.addEventListener('submit', e => {
     data[key] = value;
   });
 
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwRQVYJJx6aMcPKU423kYheZusSPqFRPWoP-I_8ttb8DHAjeJa-ORv8pVQeKY0iOg7S/exec';
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyqb18NEVJb-TdJY7GDvJc4oWOeEpFRnxbYye9tQuCieouEaG_IZdo0FXcsojlsER59/exec';
 
   fetch(scriptURL, {
     method: 'POST',
@@ -23,4 +23,5 @@ form.addEventListener('submit', e => {
   });
 
 });
+
 
